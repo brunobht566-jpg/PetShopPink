@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\PetShopPink.Aplicacao\PetShopPink.Aplicacao.csproj" />
+    <ProjectReference Include="..\PetShopPink.Dominio\PetShopPink.Dominio.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Formularios\FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Formularios\FrmMenuPrincipal.Designer.cs">
+      <DependentUpon>FrmMenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Formularios\FrmCadastroAnimal.Designer.cs">
+      <DependentUpon>FrmCadastroAnimal.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Formularios\FrmConsultaAnimais.Designer.cs">
+      <DependentUpon>FrmConsultaAnimais.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Formularios\FrmEdicaoAnimal.Designer.cs">
+      <DependentUpon>FrmEdicaoAnimal.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Imagens\*.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

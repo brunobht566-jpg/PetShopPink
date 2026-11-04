@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "profiles": [
+	{
+	  "name": "PetShopPink.WinForms",
+	  "projects": [
+		{
+		  "path": "PetShopPink.WinForms\\PetShopPink.WinForms.csproj",
+		  "launchProfile": null
+		}
+	  ]
+	}
+  ]
+}
