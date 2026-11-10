@@ -2,4 +2,5 @@
   <Project Path="PetShopPink.Aplicacao/PetShopPink.Aplicacao.csproj" />
   <Project Path="PetShopPink.Dominio/PetShopPink.Dominio.csproj" />
   <Project Path="PetShopPink.WinForms/PetShopPink.WinForms.csproj" />
+  <Project Path="PetShopPink.Web/PetShopPink.Web.csproj" />
 </Solution>
